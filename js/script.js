@@ -5,7 +5,7 @@ document.querySelector('#menu-btn').onclick = () =>{
   // loginForm.classList.remove('active');
 }
 
-let loginForm = document.querySelector('.login-form');
+// let loginForm = document.querySelector('.login-form');
 
 // document.querySelector('#login-btn').onclick = () =>{
 //   // loginForm.classList.toggle('active');
