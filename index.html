@@ -619,17 +619,23 @@
             <div class="image">
                 <img src="images/contact.png" alt="">
             </div>
-            <form action="">
+            <form onsubmit="sendMessage(event)">
                 <h3>send us a message</h3>
-                <input type="text" placeholder="name" class="box">
-                <input type="email" placeholder="email" class="box">
-                <input type="number" placeholder="phone number" class="box">
-                <textarea placeholder="message" class="box" cols="30" rows="10"></textarea>
-                <a href="#" class="btn">
-                    <span class="text text-1">send message</span>
-                    <span class="text text-2" aria-hidden="true">send message</span>
-                </a>
+                <input id="name" type="text" placeholder="Enter Your Full Nme !!!" class="box" required>
+                <input id="email" type="text" placeholder="Enter Your Age !!!" class="box" required>
+                <input id="phone" type="tel" placeholder="Enter Your Phone Number !!!" class="box" required>
+                <textarea id="message" placeholder="If You Have Any Other Questions Ask Here !!!" class="box" cols="30" rows="10" required></textarea>
+                <input type="submit" value="Send Message"  class="btn"> 
             </form>
+
+
+            <!-- <form onsubmit="sendMessage(event)">
+                <input id="name" type="text" placeholder="Name" required>
+                <input id="email" type="email" placeholder="Email" required>
+                <input id="phone" type="tel" placeholder="Phone" required>
+                <textarea id="message" cols="30" rows="7" placeholder="Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form> -->
         </div>
 
     </section>
@@ -684,6 +690,7 @@
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- custom js -->
+     <script src="js/telegram.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
