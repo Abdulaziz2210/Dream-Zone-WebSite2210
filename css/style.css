@@ -256,8 +256,8 @@ section{
 .home{
   min-height: 100vh;
   display: flex;
-  align-items: center;
-  background: url(../images/home.jpg) no-repeat;
+  align-items: center;  
+  background: url(../images/give.jfif) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -620,7 +620,7 @@ section{
   font-size: 1.3rem;
   color: var(--primary-color);
 }
-
+  
 /* ends */
 
 /* blog */
